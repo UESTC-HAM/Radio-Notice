@@ -1,2 +1,5 @@
 # Radio-Notice
-LaTeX script for demonstrating Amateur Radio
+This is a LaTeX script for Amateur Radio promotion. 
+
+## Usage
+Build `main.tex` in `XeTeX` builder. Then enjoy!
