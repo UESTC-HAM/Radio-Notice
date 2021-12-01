@@ -1,0 +1,12 @@
+\usepackage{array}
+\usepackage{graphicx}
+
+\newenvironment{scaletowidth}[1]%
+{%
+ \tabular{@{}
+          >{\setbox0=\hbox\bgroup}
+          l
+          <{\egroup\resizebox{#1}{!}{\box0}}
+          @{}
+         }%
+}{\endtabular}
